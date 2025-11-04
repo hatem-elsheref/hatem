@@ -23,7 +23,7 @@ export function Footer() {
   return (
     <footer id="contact" className="no-print border-t bg-muted/30 py-12">
       <div className="container">
-        <div className="grid gap-8 md:grid-cols-3 mb-8">
+        <div className="grid gap-8 sm:grid-cols-2 md:grid-cols-3 mb-8 px-4 sm:px-6">
           {/* About */}
           <div>
             <h3 className="mb-4 text-lg font-bold text-foreground">
@@ -75,10 +75,10 @@ export function Footer() {
             <div className="flex flex-col gap-3">
               <a
                 href={`mailto:${portfolioData.contact.email}`}
-                className="flex items-center gap-2 text-sm text-muted-foreground hover:text-primary transition-colors"
+                className="flex items-center gap-2 text-sm text-muted-foreground hover:text-primary transition-colors break-all min-h-[44px]"
               >
-                <Mail className="h-4 w-4" />
-                <span>{portfolioData.contact.email}</span>
+                <Mail className="h-4 w-4 shrink-0" />
+                <span className="break-all">{portfolioData.contact.email}</span>
               </a>
               <div className="flex items-center gap-3">
                 {socialLinks.map((link, index) => (
@@ -87,10 +87,10 @@ export function Footer() {
                     href={link.href}
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="flex h-9 w-9 items-center justify-center rounded-lg border border-border/50 bg-background hover:border-primary/50 hover:bg-primary/5 transition-all duration-300"
+                    className="flex h-11 w-11 items-center justify-center rounded-lg border border-border/50 bg-background hover:border-primary/50 hover:bg-primary/5 transition-all duration-300 touch-manipulation"
                     aria-label={link.label}
                   >
-                    <link.icon className="h-4 w-4 text-muted-foreground hover:text-primary transition-colors" />
+                    <link.icon className="h-5 w-5 text-muted-foreground hover:text-primary transition-colors" />
                   </a>
                 ))}
               </div>

@@ -59,8 +59,8 @@ export function Projects() {
         </motion.div>
 
         {/* Projects Grid */}
-        <div className="mx-auto max-w-7xl">
-          <div className="grid gap-6 md:grid-cols-2">
+        <div className="mx-auto max-w-7xl px-4 sm:px-6">
+          <div className="grid gap-4 sm:gap-6 md:grid-cols-2">
             {projects.map((project, index) => (
               <motion.div
                 key={index}

@@ -32,22 +32,33 @@ export default function Resume() {
 
   const handleDownload = () => {
     const link = document.createElement("a");
-    link.href = portfolioData.resume.cvPath;
+    // In production with base path, we need to use the full path
+    // In development, files from public folder are served from root
+    const basePath = import.meta.env.BASE_URL || '/';
+    const pdfPath = `${basePath}${portfolioData.resume.cvPath.replace(/^\//, '')}`;
+    link.href = pdfPath;
     link.download = portfolioData.resume.cvFileName;
+    link.target = '_blank';
+    document.body.appendChild(link);
     link.click();
+    // Clean up after a short delay
+    setTimeout(() => {
+      document.body.removeChild(link);
+    }, 100);
   };
 
   return (
     <div className="min-h-screen bg-background">
       <div className="no-print sticky top-16 z-40 border-b bg-background/95 backdrop-blur">
-        <div className="container flex h-16 items-center justify-between">
-          <h1 className="text-xl font-bold">{t("resumeTitle")}</h1>
-          <div className="flex gap-2">
-            <Button onClick={handlePrintToPDF} variant="outline" className="gap-2">
+        <div className="container flex flex-col sm:flex-row h-auto sm:h-16 items-start sm:items-center justify-between gap-3 sm:gap-0 py-3 sm:py-0">
+          <h1 className="text-lg sm:text-xl font-bold">{t("resumeTitle")}</h1>
+          <div className="flex flex-col sm:flex-row gap-2 w-full sm:w-auto">
+            <Button onClick={handlePrintToPDF} variant="outline" className="gap-2 w-full sm:w-auto min-h-[44px]">
               <FileDown className="h-4 w-4" />
-              Print to PDF
+              <span className="hidden sm:inline">Print to PDF</span>
+              <span className="sm:hidden">Print</span>
             </Button>
-            <Button onClick={handleDownload} className="gap-2">
+            <Button onClick={handleDownload} className="gap-2 w-full sm:w-auto min-h-[44px]">
               <Download className="h-4 w-4" />
               {t("downloadCV")}
             </Button>
@@ -55,9 +66,9 @@ export default function Resume() {
         </div>
       </div>
 
-      <div className="container py-12">
+      <div className="container py-6 sm:py-12 px-4 sm:px-6">
         <div className="mx-auto max-w-4xl">
-          <Card className="resume-paper p-8 md:p-12">
+          <Card className="resume-paper p-4 sm:p-6 md:p-8 lg:p-12">
             {language === "en" ? <ResumeEnglish /> : <ResumeArabic />}
           </Card>
         </div>

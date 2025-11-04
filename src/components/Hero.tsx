@@ -10,9 +10,19 @@ export function Hero() {
 
   const handleDownloadCV = () => {
     const link = document.createElement("a");
-    link.href = portfolioData.resume.cvPath;
+    // In production with base path, we need to use the full path
+    // In development, files from public folder are served from root
+    const basePath = import.meta.env.BASE_URL || '/';
+    const pdfPath = `${basePath}${portfolioData.resume.cvPath.replace(/^\//, '')}`;
+    link.href = pdfPath;
     link.download = portfolioData.resume.cvFileName;
+    link.target = '_blank';
+    document.body.appendChild(link);
     link.click();
+    // Clean up after a short delay
+    setTimeout(() => {
+      document.body.removeChild(link);
+    }, 100);
   };
 
   const getIcon = (iconName: string) => {
@@ -30,24 +40,24 @@ export function Hero() {
             <p className="text-sm font-medium text-primary">{portfolioData.profile.location}</p>
           </div>
 
-          <h1 className="mb-4 text-4xl font-bold tracking-tight sm:text-6xl md:text-7xl">
+          <h1 className="mb-4 text-3xl font-bold tracking-tight sm:text-4xl md:text-5xl lg:text-6xl xl:text-7xl">
             <span className="block">{portfolioData.profile.name}</span>
             <span className="block text-gradient">{portfolioData.profile.title}</span>
           </h1>
 
-          <p className="mx-auto mb-8 max-w-2xl text-lg text-muted-foreground md:text-xl">
+          <p className="mx-auto mb-8 max-w-2xl text-base text-muted-foreground sm:text-lg md:text-xl px-4">
             {portfolioData.profile.subtitle}
           </p>
 
-          <div className="flex flex-wrap items-center justify-center gap-4">
-            <Button size="lg" className="gap-2" onClick={handleDownloadCV}>
+          <div className="flex flex-col sm:flex-row items-center justify-center gap-3 sm:gap-4 px-4">
+            <Button size="lg" className="gap-2 w-full sm:w-auto min-h-[44px]" onClick={handleDownloadCV}>
               <Download className="h-5 w-5" />
               {t("downloadCV")}
             </Button>
             <Button 
               size="lg" 
               variant="outline" 
-              className="gap-2"
+              className="gap-2 w-full sm:w-auto min-h-[44px]"
               onClick={() => {
                 const footer = document.getElementById("contact");
                 if (footer) {
@@ -62,12 +72,12 @@ export function Hero() {
             </Button>
           </div>
 
-          <div className="mt-12 flex items-center justify-center gap-4">
+          <div className="mt-12 flex items-center justify-center gap-3 sm:gap-4">
             {portfolioData.contact.socialLinks.map((link, index) => {
               const Icon = getIcon(link.icon);
               return (
-                <Button key={index} variant="ghost" size="icon" asChild>
-                  <a href={link.href} target="_blank" rel="noopener noreferrer">
+                <Button key={index} variant="ghost" size="icon" className="h-11 w-11" asChild>
+                  <a href={link.href} target="_blank" rel="noopener noreferrer" className="touch-manipulation">
                     <Icon className="h-5 w-5" />
                   </a>
                 </Button>

@@ -18,12 +18,12 @@ export function WhatsAppFloat() {
       animate={{ scale: 1 }}
       whileHover={{ scale: 1.1 }}
       whileTap={{ scale: 0.95 }}
-      className="no-print fixed bottom-6 right-6 z-50 flex h-16 w-16 items-center justify-center rounded-full bg-[#25D366] text-white shadow-2xl shadow-[#25D366]/50 hover:shadow-[#25D366]/70 transition-all duration-300 group"
+      className="no-print fixed bottom-4 right-4 sm:bottom-6 sm:right-6 z-50 flex h-14 w-14 sm:h-16 sm:w-16 items-center justify-center rounded-full bg-[#25D366] text-white shadow-2xl shadow-[#25D366]/50 hover:shadow-[#25D366]/70 transition-all duration-300 group touch-manipulation"
       aria-label="Contact on WhatsApp"
     >
       {/* WhatsApp Icon */}
       <svg
-        className="h-8 w-8"
+        className="h-7 w-7 sm:h-8 sm:w-8"
         fill="currentColor"
         viewBox="0 0 24 24"
         xmlns="http://www.w3.org/2000/svg"

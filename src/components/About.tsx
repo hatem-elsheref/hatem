@@ -50,9 +50,9 @@ export function About() {
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
             transition={{ duration: 0.6 }}
-            className="mb-8"
+            className="mb-8 px-4 sm:px-0"
           >
-            <div className="bg-card rounded-2xl shadow-lg border border-border p-8 md:p-10">
+            <div className="bg-card rounded-2xl shadow-lg border border-border p-6 sm:p-8 md:p-10">
               <div className="flex items-start gap-4 mb-6">
                 <div className="flex h-14 w-14 shrink-0 items-center justify-center rounded-xl bg-primary">
                   <Briefcase className="h-7 w-7 text-white" />
@@ -71,7 +71,7 @@ export function About() {
           </motion.div>
 
           {/* Stats - Separate Cards */}
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mb-8">
+          <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4 sm:gap-6 mb-8 px-4 sm:px-0">
             {stats.map((stat, index) => (
               <motion.div
                 key={index}
