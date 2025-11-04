@@ -1,16 +1,23 @@
 import { Download, Mail, Github, Linkedin, Twitter } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { useLanguage } from "@/contexts/LanguageContext";
+import { usePortfolioData } from "@/hooks/usePortfolioData";
+import * as LucideIcons from "lucide-react";
 
 export function Hero() {
   const { t } = useLanguage();
+  const portfolioData = usePortfolioData();
 
   const handleDownloadCV = () => {
-    // This will be linked to the uploaded CV file
     const link = document.createElement("a");
-    link.href = "/cv.pdf"; // User will upload this
-    link.download = "Hatem_Mohamed_CV.pdf";
+    link.href = portfolioData.resume.cvPath;
+    link.download = portfolioData.resume.cvFileName;
     link.click();
+  };
+
+  const getIcon = (iconName: string) => {
+    const Icon = (LucideIcons as any)[iconName];
+    return Icon || Mail;
   };
 
   return (
@@ -20,16 +27,16 @@ export function Hero() {
       <div className="container relative">
         <div className="mx-auto max-w-4xl text-center fade-in">
           <div className="mb-6 inline-block rounded-full bg-primary/10 px-4 py-2">
-            <p className="text-sm font-medium text-primary">{t("heroLocation")}</p>
+            <p className="text-sm font-medium text-primary">{portfolioData.profile.location}</p>
           </div>
 
           <h1 className="mb-4 text-4xl font-bold tracking-tight sm:text-6xl md:text-7xl">
-            <span className="block">Hatem Mohamed</span>
-            <span className="block text-gradient">{t("heroTitle")}</span>
+            <span className="block">{portfolioData.profile.name}</span>
+            <span className="block text-gradient">{portfolioData.profile.title}</span>
           </h1>
 
           <p className="mx-auto mb-8 max-w-2xl text-lg text-muted-foreground md:text-xl">
-            {t("heroSubtitle")}
+            {portfolioData.profile.subtitle}
           </p>
 
           <div className="flex flex-wrap items-center justify-center gap-4">
@@ -37,35 +44,35 @@ export function Hero() {
               <Download className="h-5 w-5" />
               {t("downloadCV")}
             </Button>
-            <Button size="lg" variant="outline" className="gap-2" asChild>
-              <a href="#contact">
-                <Mail className="h-5 w-5" />
-                {t("contactMe")}
-              </a>
+            <Button 
+              size="lg" 
+              variant="outline" 
+              className="gap-2"
+              onClick={() => {
+                const footer = document.getElementById("contact");
+                if (footer) {
+                  footer.scrollIntoView({ behavior: "smooth" });
+                } else {
+                  window.location.href = `mailto:${portfolioData.contact.email}`;
+                }
+              }}
+            >
+              <Mail className="h-5 w-5" />
+              {t("contactMe")}
             </Button>
           </div>
 
           <div className="mt-12 flex items-center justify-center gap-4">
-            <Button variant="ghost" size="icon" asChild>
-              <a href="https://github.com/hatem-elsheref" target="_blank" rel="noopener noreferrer">
-                <Github className="h-5 w-5" />
-              </a>
-            </Button>
-            <Button variant="ghost" size="icon" asChild>
-              <a href="https://linkedin.com/in/hatem-elsheref" target="_blank" rel="noopener noreferrer">
-                <Linkedin className="h-5 w-5" />
-              </a>
-            </Button>
-            <Button variant="ghost" size="icon" asChild>
-              <a href="https://twitter.com/hatem_elshere" target="_blank" rel="noopener noreferrer">
-                <Twitter className="h-5 w-5" />
-              </a>
-            </Button>
-            <Button variant="ghost" size="icon" asChild>
-              <a href="mailto:hatem_mohamed_elsheref@yahoo.com">
-                <Mail className="h-5 w-5" />
-              </a>
-            </Button>
+            {portfolioData.contact.socialLinks.map((link, index) => {
+              const Icon = getIcon(link.icon);
+              return (
+                <Button key={index} variant="ghost" size="icon" asChild>
+                  <a href={link.href} target="_blank" rel="noopener noreferrer">
+                    <Icon className="h-5 w-5" />
+                  </a>
+                </Button>
+              );
+            })}
           </div>
         </div>
       </div>

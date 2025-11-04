@@ -19,6 +19,7 @@ const translations = {
     projects: "Projects",
     resume: "Resume",
     contact: "Contact",
+    timeline: "Timeline",
     downloadCV: "Download CV",
     
     // Hero
@@ -30,6 +31,7 @@ const translations = {
     
     // About
     aboutTitle: "About Me",
+    aboutSummary: "Software Engineer and Full Stack Web Developer with 3+ years of experience, specializing in PHP, Laravel, and MySQL. Proficient in object-oriented programming (OOP), MVC, and HMVC architectures, and skilled in applying SOLID principles and design patterns to develop scalable and maintainable backend systems. Experienced in building dynamic web applications, integrating third-party APIs, and designing efficient database structures. Adept at delivering end-to-end solutions for diverse projects, ensuring high performance and robust functionality. Strong time management and problem-solving skills, able to prioritize tasks efficiently and overcome complex technical challenges.",
     aboutDesc1: "Computer Engineer with strong background in software architecture and backend systems",
     aboutDesc2: "Specialized in Laravel, Node.js, and Microservices architectures",
     aboutDesc3: "Experienced in real-time apps, API integrations, push notifications, and system automation",
@@ -60,6 +62,10 @@ const translations = {
     linkedin: "LinkedIn",
     twitter: "Twitter",
     
+    // Timeline
+    timelineTitle: "Experience & Education",
+    timelineDesc: "My professional journey and educational background",
+    
     // Resume Page
     resumeTitle: "Professional Resume",
     printResume: "Print Resume",
@@ -84,6 +90,7 @@ const translations = {
     projects: "المشاريع",
     resume: "السيرة الذاتية",
     contact: "تواصل",
+    timeline: "الخط الزمني",
     downloadCV: "تحميل السيرة الذاتية",
     
     // Hero
@@ -95,6 +102,7 @@ const translations = {
     
     // About
     aboutTitle: "نبذة عني",
+    aboutSummary: "مهندس برمجيات ومطور ويب Full Stack مع أكثر من 3 سنوات من الخبرة، متخصص في PHP و Laravel و MySQL. متمكن من البرمجة الكائنية (OOP) وبنى MVC و HMVC، وماهر في تطبيق مبادئ SOLID وأنماط التصميم لتطوير أنظمة Backend قابلة للتوسع والصيانة. خبرة في بناء تطبيقات الويب الديناميكية وتكامل APIs الخارجية وتصميم هياكل قواعد البيانات الفعالة. ماهر في تقديم حلول شاملة لمشاريع متنوعة، ضماناً للأداء العالي والوظائف القوية. مهارات قوية في إدارة الوقت وحل المشاكل، قادر على ترتيب الأولويات بكفاءة والتغلب على التحديات التقنية المعقدة.",
     aboutDesc1: "مهندس حاسب آلي مع خلفية قوية في هندسة البرمجيات وأنظمة Backend",
     aboutDesc2: "متخصص في Laravel و Node.js وبنية الخدمات المصغرة",
     aboutDesc3: "خبرة في التطبيقات الفورية وتكامل APIs والإشعارات وأتمتة الأنظمة",
@@ -125,6 +133,10 @@ const translations = {
     linkedin: "لينكد إن",
     twitter: "تويتر",
     
+    // Timeline
+    timelineTitle: "الخبرة والتعليم",
+    timelineDesc: "رحلتي المهنية والخلفية التعليمية",
+    
     // Resume Page
     resumeTitle: "السيرة الذاتية المهنية",
     printResume: "طباعة السيرة الذاتية",
@@ -144,20 +156,19 @@ const translations = {
 };
 
 export function LanguageProvider({ children }: { children: React.ReactNode }) {
-  const [language, setLanguage] = useState<Language>(() => {
-    const stored = localStorage.getItem("language");
-    return (stored as Language) || "en";
-  });
+  const [language, setLanguage] = useState<Language>("en");
 
   useEffect(() => {
+    // Force English language and LTR direction
     const root = document.documentElement;
-    root.setAttribute("dir", language === "ar" ? "rtl" : "ltr");
-    root.setAttribute("lang", language);
-    localStorage.setItem("language", language);
-  }, [language]);
+    root.setAttribute("dir", "ltr");
+    root.setAttribute("lang", "en");
+    localStorage.setItem("language", "en");
+  }, []);
 
   const toggleLanguage = () => {
-    setLanguage((prev) => (prev === "en" ? "ar" : "en"));
+    // Disabled - language locked to English
+    // setLanguage((prev) => (prev === "en" ? "ar" : "en"));
   };
 
   const t = (key: string): string => {

@@ -1,20 +1,37 @@
 import { Button } from "@/components/ui/button";
 import { Card } from "@/components/ui/card";
-import { Printer, Download } from "lucide-react";
+import { Printer, Download, FileDown } from "lucide-react";
 import { useLanguage } from "@/contexts/LanguageContext";
 import { ResumeEnglish } from "@/components/ResumeEnglish";
 import { ResumeArabic } from "@/components/ResumeArabic";
+import { Footer } from "@/components/Footer";
+import { WhatsAppFloat } from "@/components/WhatsAppFloat";
 
 export default function Resume() {
   const { language, t } = useLanguage();
-  const handlePrint = () => {
+  
+  const handlePrintToPDF = () => {
+    // Hide non-printable elements
+    const noPrintElements = document.querySelectorAll('.no-print');
+    noPrintElements.forEach(el => {
+      (el as HTMLElement).style.display = 'none';
+    });
+    
+    // Print (user can choose "Save as PDF" in print dialog)
     window.print();
+    
+    // Restore elements after a delay
+    setTimeout(() => {
+      noPrintElements.forEach(el => {
+        (el as HTMLElement).style.display = '';
+      });
+    }, 1000);
   };
 
   const handleDownload = () => {
     const link = document.createElement("a");
-    link.href = "/cv.pdf";
-    link.download = "Hatem_Mohamed_CV.pdf";
+    link.href = "/Hatem__Mohamed__Elsheref__CV.pdf";
+    link.download = "Hatem__Mohamed__Elsheref__CV.pdf";
     link.click();
   };
 
@@ -24,9 +41,9 @@ export default function Resume() {
         <div className="container flex h-16 items-center justify-between">
           <h1 className="text-xl font-bold">{t("resumeTitle")}</h1>
           <div className="flex gap-2">
-            <Button onClick={handlePrint} variant="outline" className="gap-2">
-              <Printer className="h-4 w-4" />
-              {t("printResume")}
+            <Button onClick={handlePrintToPDF} variant="outline" className="gap-2">
+              <FileDown className="h-4 w-4" />
+              Print to PDF
             </Button>
             <Button onClick={handleDownload} className="gap-2">
               <Download className="h-4 w-4" />
@@ -46,7 +63,27 @@ export default function Resume() {
 
       <style>{`
         @media print {
-          .no-print {
+          @page {
+            size: A4;
+            margin: 0.5in;
+          }
+
+          * {
+            -webkit-print-color-adjust: exact !important;
+            print-color-adjust: exact !important;
+            color-adjust: exact !important;
+          }
+
+          body {
+            background: white !important;
+            color: black !important;
+          }
+
+          .no-print,
+          header,
+          nav,
+          footer,
+          .whatsapp-float {
             display: none !important;
           }
           
@@ -54,15 +91,39 @@ export default function Resume() {
             box-shadow: none !important;
             border: none !important;
             margin: 0 !important;
-            padding: 1rem !important;
+            padding: 0 !important;
+            background: white !important;
           }
 
-          body {
-            print-color-adjust: exact;
-            -webkit-print-color-adjust: exact;
+          .resume-content {
+            color: black !important;
+          }
+
+          .resume-content * {
+            color: black !important;
+            border-color: black !important;
+          }
+
+          .resume-content h1,
+          .resume-content h2,
+          .resume-content h3 {
+            color: black !important;
+          }
+
+          a {
+            color: black !important;
+            text-decoration: underline !important;
+          }
+        }
+
+        @media screen {
+          .resume-content {
+            color: black;
           }
         }
       `}</style>
+      <Footer />
+      <WhatsAppFloat />
     </div>
   );
 }

@@ -1,0 +1,379 @@
+{
+  "header": {
+    "name": "Hatem Mohamed",
+    "titleEn": "Full Stack Developer | Computer Engineer",
+    "titleAr": "مطور Full Stack | مهندس حاسب",
+    "locationEn": "Egypt",
+    "locationAr": "مصر",
+    "email": "hatem_mohamed_elsheref@yahoo.com",
+    "linkedin": "linkedin.com/in/hatem-elsheref",
+    "github": "github.com/hatem-elsheref"
+  },
+  "professionalSummary": {
+    "en": "Experienced Full Stack Developer and Computer Engineer with extensive expertise in software architecture and backend systems. Specialized in Laravel, Node.js, and Microservices architectures with proven ability to build scalable, high-performance applications. Passionate about clean code, SOLID principles, and performance optimization. Demonstrated track record in developing real-time applications, API integrations, push notifications, and system automation solutions.",
+    "ar": "مطور Full Stack ومهندس حاسب ذو خبرة واسعة في هندسة البرمجيات وأنظمة Backend. متخصص في Laravel و Node.js وبنى Microservices مع قدرة مثبتة على بناء تطبيقات قابلة للتوسع وعالية الأداء. شغوف بالكود النظيف ومبادئ SOLID وتحسين الأداء. سجل حافل في تطوير التطبيقات الفورية وتكامل APIs والإشعارات وحلول أتمتة الأنظمة."
+  },
+  "technicalSkills": {
+    "languages": {
+      "en": "Languages",
+      "ar": "اللغات",
+      "skills": ["PHP", "JavaScript", "HTML5", "CSS3", "SQL"]
+    },
+    "backendFrameworks": {
+      "en": "Backend Frameworks",
+      "ar": "أطر عمل Backend",
+      "skills": ["Laravel", "Lumen", "Node.js", "Express.js", "Fastify"]
+    },
+    "frontendFrameworks": {
+      "en": "Frontend Frameworks",
+      "ar": "أطر عمل Frontend",
+      "skills": ["Vue.js", "Bootstrap", "Tailwind CSS", "jQuery"]
+    },
+    "databases": {
+      "en": "Databases",
+      "ar": "قواعد البيانات",
+      "skills": ["MySQL", "MongoDB", "Redis", "SQLite"]
+    },
+    "cloudDevops": {
+      "en": "Cloud & DevOps",
+      "ar": "الحوسبة السحابية و DevOps",
+      "skills": ["AWS (S3, SES, SNS)", "Docker", "GitHub Actions", "Nginx", "Apache", "Linux/Ubuntu"]
+    },
+    "architecture": {
+      "en": "Architecture & Concepts",
+      "ar": "الهندسة والمفاهيم",
+      "skills": ["Microservices", "MVC", "SOLID Principles", "Design Patterns", "OOP", "RESTful APIs", "GraphQL", "WebSockets", "Queue Systems", "Message Brokers"]
+    }
+  },
+  "featuredProjects": [
+    {
+      "titleEn": "AI Video Analysis Dashboard",
+      "titleAr": "لوحة تحليل الفيديو بالذكاء الاصطناعي",
+      "subtitleEn": "Comprehensive dashboard integrating AI models for video analysis, rendering results, and predictions",
+      "subtitleAr": "لوحة تحكم شاملة تكامل نماذج الذكاء الاصطناعي لتحليل الفيديو وعرض النتائج والتنبؤات",
+      "year": "2024-2025",
+      "techStack": "Laravel • Tailwind CSS • Blade • REST APIs • Node.js • WebSockets • MySQL • AI Integration • Linux VPS",
+      "achievements": [
+        {
+          "en": "Developed a comprehensive dashboard integrating AI models for video analysis and rendering results",
+          "ar": "تطوير لوحة تحكم شاملة تكامل نماذج الذكاء الاصطناعي لتحليل الفيديو وعرض النتائج"
+        },
+        {
+          "en": "Implemented real-time predictions and result rendering using Node.js WebSockets",
+          "ar": "تنفيذ التنبؤات الفورية وعرض النتائج باستخدام Node.js WebSockets"
+        },
+        {
+          "en": "Built background job processing system for handling AI model computations efficiently",
+          "ar": "بناء نظام معالجة المهام الخلفية للتعامل مع حسابات نماذج الذكاء الاصطناعي بكفاءة"
+        },
+        {
+          "en": "Deployed and optimized on Linux VPS with MySQL for high-performance data management",
+          "ar": "نشر وتحسين على Linux VPS مع MySQL لإدارة البيانات عالية الأداء"
+        }
+      ]
+    },
+    {
+      "titleEn": "Tourize - Simple Accountant System",
+      "titleAr": "Tourize - نظام محاسبة بسيط",
+      "subtitleEn": "Comprehensive accounting system managing invoices, bookings, expenses, and financial reports",
+      "subtitleAr": "نظام محاسبة شامل لإدارة الفواتير والحجوزات والمصروفات والتقارير المالية",
+      "year": "2023",
+      "techStack": "Laravel • MySQL • PHP • JavaScript • Vue.js • Financial Management",
+      "achievements": [
+        {
+          "en": "Developed comprehensive system managing invoices, Umrah bookings, flights, visas (including electronic visas), and hotel bookings",
+          "ar": "تطوير نظام شامل لإدارة الفواتير وحجوزات العمرة والطيران والتأشيرات (بما في ذلك التأشيرات الإلكترونية) وحجوزات الفنادق"
+        },
+        {
+          "en": "Implemented expense tracking and employee salary management modules",
+          "ar": "تنفيذ وحدات تتبع المصروفات وإدارة رواتب الموظفين"
+        },
+        {
+          "en": "Created insights and reporting system for streamlined accounting and financial tracking",
+          "ar": "إنشاء نظام الرؤى والتقارير للمحاسبة والتتبع المالي المبسط"
+        },
+        {
+          "en": "Streamlined accounting processes and improved financial visibility for the company",
+          "ar": "تبسيط عمليات المحاسبة وتحسين الرؤية المالية للشركة"
+        }
+      ]
+    },
+    {
+      "titleEn": "Ticket System for Techsup",
+      "titleAr": "نظام التذاكر لـ Techsup",
+      "subtitleEn": "Multi-company customer support ticketing system with integrated communication channels",
+      "subtitleAr": "نظام تذاكر دعم العملاء متعدد الشركات مع قنوات اتصال متكاملة",
+      "year": "2023",
+      "techStack": "Laravel • WhatsApp API • WebSockets • MySQL • Redis • Multi-tenant Architecture",
+      "achievements": [
+        {
+          "en": "Created ticketing system handling customer support for multiple subscribed companies",
+          "ar": "إنشاء نظام تذاكر للتعامل مع دعم العملاء لشركات متعددة مشتركة"
+        },
+        {
+          "en": "Integrated WhatsApp, API support, scheduled reports, and multi-channel notifications (push, SMS, email)",
+          "ar": "تكامل WhatsApp ودعم API والتقارير المجدولة والإشعارات متعددة القنوات (الإشعارات الفورية و SMS والبريد الإلكتروني)"
+        },
+        {
+          "en": "Implemented customized ticket fields for each organization to cater to their specific needs",
+          "ar": "تنفيذ حقول تذاكر مخصصة لكل منظمة لتلبية احتياجاتها الخاصة"
+        },
+        {
+          "en": "Built scalable architecture supporting multiple tenants with isolated data and workflows",
+          "ar": "بناء بنية قابلة للتوسع تدعم مستأجرين متعددين مع بيانات وسير عمل معزولين"
+        }
+      ]
+    },
+    {
+      "titleEn": "Coursaty - Online Course Platform (LMS)",
+      "titleAr": "Coursaty - منصة الدورات الإلكترونية (LMS)",
+      "subtitleEn": "Udemy-like platform for online courses with comprehensive learning management features",
+      "subtitleAr": "منصة مشابهة لـ Udemy للدورات الإلكترونية مع ميزات إدارة التعلم الشاملة",
+      "year": "2023",
+      "techStack": "Laravel • LMS • MySQL • JavaScript • Vue.js • File Management • Video Streaming",
+      "achievements": [
+        {
+          "en": "Created platform similar to Udemy for online courses with exams, quizzes, and assignments",
+          "ar": "إنشاء منصة مشابهة لـ Udemy للدورات الإلكترونية مع الامتحانات والاختبارات والواجبات"
+        },
+        {
+          "en": "Implemented lesson system supporting documents and images for comprehensive learning content",
+          "ar": "تنفيذ نظام الدروس الذي يدعم المستندات والصور لمحتوى التعلم الشامل"
+        },
+        {
+          "en": "Built comprehensive system to manage students and teachers with role-based access control",
+          "ar": "بناء نظام شامل لإدارة الطلاب والمعلمين مع التحكم في الوصول القائم على الأدوار"
+        },
+        {
+          "en": "Developed progress tracking and analytics for student performance monitoring",
+          "ar": "تطوير تتبع التقدم والتحليلات لمراقبة أداء الطلاب"
+        }
+      ]
+    },
+    {
+      "titleEn": "Ajel Workflow - News Agency Dashboard",
+      "titleAr": "Ajel Workflow - لوحة وكالة الأنباء",
+      "subtitleEn": "Editorial workflow management system for news agencies with role-based processes",
+      "subtitleAr": "نظام إدارة سير العمل التحريري لوكالات الأنباء مع عمليات قائمة على الأدوار",
+      "year": "2023",
+      "techStack": "Laravel • Role-Based Access • MySQL • Workflow Management • Blade • Editorial System",
+      "achievements": [
+        {
+          "en": "Built dashboard for Ajel News Agency to manage news articles and the editorial process",
+          "ar": "بناء لوحة تحكم لوكالة أنباء Ajel لإدارة مقالات الأخبار وعملية التحرير"
+        },
+        {
+          "en": "Implemented role-based workflows for editors, publishers, reviewers, photographers, and graphic teams",
+          "ar": "تنفيذ سير عمل قائم على الأدوار للمحررين والناشرين والمراجعين والمصورين وفرق الرسوم"
+        },
+        {
+          "en": "Created article publishing system with history logging and version control",
+          "ar": "إنشاء نظام نشر المقالات مع تسجيل التاريخ والتحكم في الإصدارات"
+        },
+        {
+          "en": "Developed approval workflow ensuring quality control throughout the editorial process",
+          "ar": "تطوير سير عمل الموافقة يضمن مراقبة الجودة طوال عملية التحرير"
+        }
+      ]
+    },
+    {
+      "titleEn": "Smart Chat & Ticketing System",
+      "titleAr": "نظام الدردشة والتذاكر الذكي",
+      "subtitleEn": "Real-time communication platform with AI-powered features",
+      "subtitleAr": "منصة اتصال فورية مع ميزات مدعومة بالذكاء الاصطناعي",
+      "year": "2023",
+      "techStack": "Laravel • jQuery • Redis • Laravel Echo • WebSockets • MySQL • AI Integration",
+      "achievements": [
+        {
+          "en": "Built Laravel-based chat widget with multi-admin support and role-based access control",
+          "ar": "بناء أداة دردشة مبنية على Laravel مع دعم متعدد للمسؤولين والتحكم في الوصول القائم على الأدوار"
+        },
+        {
+          "en": "Implemented AI-powered auto-reply knowledge base for common customer queries",
+          "ar": "تنفيذ قاعدة معرفة للردود التلقائية المدعومة بالذكاء الاصطناعي للاستفسارات الشائعة للعملاء"
+        },
+        {
+          "en": "Integrated Redis and Laravel Echo for real-time bidirectional communication",
+          "ar": "تكامل Redis و Laravel Echo للاتصال ثنائي الاتجاه في الوقت الفعلي"
+        },
+        {
+          "en": "Developed comprehensive analytics dashboard for monitoring chat metrics",
+          "ar": "تطوير لوحة تحليل شاملة لمراقبة مقاييس الدردشة"
+        }
+      ]
+    },
+    {
+      "titleEn": "Logistics Integration Service",
+      "titleAr": "خدمة التكامل اللوجستي",
+      "subtitleEn": "High-performance webhook processing system for e-commerce platforms",
+      "subtitleAr": "نظام معالجة webhook عالي الأداء لمنصات التجارة الإلكترونية",
+      "year": "2022",
+      "techStack": "Laravel • Queue System • Redis • MySQL • Webhook Processing • REST APIs",
+      "achievements": [
+        {
+          "en": "Designed scalable system to receive, validate, and process webhooks from multiple sales channels",
+          "ar": "تصميم نظام قابل للتوسع لاستقبال والتحقق من ومعالجة webhooks من قنوات المبيعات المتعددة"
+        },
+        {
+          "en": "Implemented queue-based architecture for handling high-volume webhook traffic",
+          "ar": "تنفيذ بنية قائمة على الطوابير لمعالجة حركة webhook عالية الحجم"
+        },
+        {
+          "en": "Created comprehensive logging and monitoring system for tracking webhook lifecycle",
+          "ar": "إنشاء نظام تسجيل ومراقبة شامل لتتبع دورة حياة webhook"
+        },
+        {
+          "en": "Built retry mechanism with exponential backoff for failed webhook processing",
+          "ar": "بناء آلية إعادة المحاولة مع التراجع الأسي لمعالجة webhook الفاشلة"
+        }
+      ]
+    },
+    {
+      "titleEn": "SaaS Marketing Engine",
+      "titleAr": "محرك التسويق SaaS",
+      "subtitleEn": "Enterprise-grade multi-channel marketing automation platform",
+      "subtitleAr": "منصة أتمتة تسويق متعددة القنوات على مستوى المؤسسات",
+      "year": "2023",
+      "techStack": "Laravel • Node.js • FCM • Meta API • AWS SES • AWS SNS • RabbitMQ",
+      "achievements": [
+        {
+          "en": "Developed comprehensive campaign system supporting email, SMS, push, and WhatsApp",
+          "ar": "تطوير نظام حملات شامل يدعم البريد الإلكتروني و SMS والإشعارات و WhatsApp"
+        },
+        {
+          "en": "Integrated with FCM, AWS SES, AWS SNS, and Meta Business API for multi-channel delivery",
+          "ar": "التكامل مع FCM و AWS SES و AWS SNS و Meta Business API للتسليم متعدد القنوات"
+        },
+        {
+          "en": "Built real-time analytics dashboard for campaign performance tracking and ROI measurement",
+          "ar": "بناء لوحة تحليل فورية لتتبع أداء الحملات وقياس العائد على الاستثمار"
+        },
+        {
+          "en": "Implemented A/B testing framework for optimizing campaign effectiveness",
+          "ar": "تنفيذ إطار عمل A/B testing لتحسين فعالية الحملات"
+        }
+      ]
+    },
+    {
+      "titleEn": "API Automation Toolkit",
+      "titleAr": "مجموعة أتمتة API",
+      "subtitleEn": "AI-powered API generation and documentation tool",
+      "subtitleAr": "أداة توليد وثائق API مدعومة بالذكاء الاصطناعي",
+      "year": "2024",
+      "techStack": "Fastify • Node.js • TypeScript • Redis • OpenAI API • Swagger",
+      "achievements": [
+        {
+          "en": "Created intelligent tool that auto-generates CRUD APIs from natural language descriptions",
+          "ar": "إنشاء أداة ذكية تولد تلقائياً CRUD APIs من أوصاف اللغة الطبيعية"
+        },
+        {
+          "en": "Implemented automatic route generation, Swagger documentation, and database relationship mapping",
+          "ar": "تنفيذ توليد المسارات التلقائي ووثائق Swagger وربط علاقات قاعدة البيانات"
+        },
+        {
+          "en": "Leveraged OpenAI API for context-aware code generation and optimization",
+          "ar": "الاستفادة من OpenAI API لتوليد الكود وتحسينه المتعرف على السياق"
+        },
+        {
+          "en": "Built automated test suite generation for API endpoints",
+          "ar": "بناء توليد مجموعة اختبارات تلقائية لنقاط نهاية API"
+        }
+      ]
+    }
+  ],
+  "education": [
+    {
+      "degreeEn": "Bachelor's Degree in Computer Engineering",
+      "degreeAr": "بكالوريوس هندسة الحاسب",
+      "institutionEn": "Menofia University",
+      "institutionAr": "جامعة المنوفية",
+      "locationEn": "Egypt",
+      "locationAr": "مصر",
+      "periodEn": "July 2017 - August 2021",
+      "periodAr": "يوليو 2017 - أغسطس 2021",
+      "detailsEn": "GPA: 3.3 | Overall Grade: Very Good with Honors | Graduation Project: Excellent",
+      "detailsAr": "المعدل التراكمي: 3.3 | التقدير العام: جيد جداً مع مرتبة الشرف | مشروع التخرج: ممتاز"
+    },
+    {
+      "degreeEn": "Summer Training - Open Source Web Development",
+      "degreeAr": "تدريب صيفي - تطوير الويب مفتوح المصدر",
+      "institutionEn": "Information Technology Institute (ITI)",
+      "institutionAr": "معهد تكنولوجيا المعلومات (ITI)",
+      "locationEn": "Egypt",
+      "locationAr": "مصر",
+      "periodEn": "August 2020 - October 2020",
+      "periodAr": "أغسطس 2020 - أكتوبر 2020",
+      "detailsEn": "Completed 126 hours in Open Source Web Development",
+      "detailsAr": "إكمال 126 ساعة في تطوير الويب مفتوح المصدر"
+    }
+  ],
+  "coreCompetencies": [
+    {
+      "en": "Expert in building scalable microservices architectures",
+      "ar": "خبير في بناء بنى Microservices قابلة للتوسع"
+    },
+    {
+      "en": "Strong focus on code quality, testing, and comprehensive documentation",
+      "ar": "تركيز قوي على جودة الكود والاختبار والوثائق الشاملة"
+    },
+    {
+      "en": "Extensive experience with real-time applications and WebSocket implementations",
+      "ar": "خبرة واسعة في التطبيقات الفورية وتنفيذ WebSocket"
+    },
+    {
+      "en": "Proficient in RESTful API design, integration, and third-party service connections",
+      "ar": "ماهر في تصميم RESTful API والتكامل واتصالات الخدمات الخارجية"
+    },
+    {
+      "en": "Skilled in performance optimization and database query tuning",
+      "ar": "ماهر في تحسين الأداء وضبط استعلامات قاعدة البيانات"
+    },
+    {
+      "en": "Passionate about automation and building developer productivity tools",
+      "ar": "شغوف بالأتمتة وبناء أدوات إنتاجية المطورين"
+    }
+  ],
+  "certificates": [
+    {
+      "titleEn": "Open Source Web Development",
+      "titleAr": "تطوير الويب مفتوح المصدر",
+      "issuerEn": "Information Technology Institute (ITI)",
+      "issuerAr": "معهد تكنولوجيا المعلومات (ITI)",
+      "dateEn": "2020",
+      "dateAr": "2020",
+      "credentialId": "",
+      "credentialUrl": ""
+    },
+    {
+      "titleEn": "Reverse Engineering & Penetration Testing",
+      "titleAr": "الهندسة العكسية واختبار الاختراق",
+      "issuerEn": "Cyber Talent",
+      "issuerAr": "Cyber Talent",
+      "dateEn": "2018",
+      "dateAr": "2018",
+      "credentialId": "",
+      "credentialUrl": ""
+    },
+    {
+      "titleEn": "Innove Egypt & Intel",
+      "titleAr": "Innove Egypt & Intel",
+      "issuerEn": "KFS University",
+      "issuerAr": "جامعة KFS",
+      "dateEn": "2019",
+      "dateAr": "2019",
+      "credentialId": "",
+      "credentialUrl": ""
+    },
+    {
+      "titleEn": "Talent Graphic 2D",
+      "titleAr": "موهبة الرسومات ثنائية الأبعاد",
+      "issuerEn": "Talent Academy",
+      "issuerAr": "أكاديمية المواهب",
+      "dateEn": "2017",
+      "dateAr": "2017",
+      "credentialId": "",
+      "credentialUrl": ""
+    }
+  ]
+}
+

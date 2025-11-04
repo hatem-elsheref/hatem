@@ -1,0 +1,577 @@
+{
+  "profile": {
+    "name": "Hatem Mohamed",
+    "title": "Full Stack Developer",
+    "subtitle": "Building scalable, high-performance applications with Laravel, Node.js, and Vue.js",
+    "location": "Based in Egypt 🇪🇬",
+    "locationEn": "Based in Egypt 🇪🇬",
+    "locationAr": "مقره في مصر 🇪🇬"
+  },
+  "professionalSummary": {
+    "en": "Software Engineer and Full Stack Web Developer with 4+ years of experience, specializing in PHP, Laravel, and MySQL. Proficient in object-oriented programming (OOP), MVC, and HMVC architectures, and skilled in applying SOLID principles and design patterns to develop scalable and maintainable backend systems. Experienced in building dynamic web applications, integrating third-party APIs, and designing efficient database structures. Adept at delivering end-to-end solutions for diverse projects, ensuring high performance and robust functionality. Strong time management and problem-solving skills, able to prioritize tasks efficiently and overcome complex technical challenges.",
+    "ar": "مهندس برمجيات ومطور ويب Full Stack مع أكثر من 4 سنوات من الخبرة، متخصص في PHP و Laravel و MySQL. متمكن من البرمجة الكائنية (OOP) وبنى MVC و HMVC، وماهر في تطبيق مبادئ SOLID وأنماط التصميم لتطوير أنظمة Backend قابلة للتوسع والصيانة. خبرة في بناء تطبيقات الويب الديناميكية وتكامل APIs الخارجية وتصميم هياكل قواعد البيانات الفعالة. ماهر في تقديم حلول شاملة لمشاريع متنوعة، ضماناً للأداء العالي والوظائف القوية. مهارات قوية في إدارة الوقت وحل المشاكل، قادر على ترتيب الأولويات بكفاءة والتغلب على التحديات التقنية المعقدة."
+  },
+  "stats": {
+    "years": {
+      "value": "4+",
+      "labelEn": "Years",
+      "labelAr": "سنوات",
+      "sublabelEn": "Experience",
+      "sublabelAr": "خبرة"
+    },
+    "projects": {
+      "value": "35+",
+      "labelEn": "Projects",
+      "labelAr": "مشاريع",
+      "sublabelEn": "Completed",
+      "sublabelAr": "مكتملة"
+    },
+    "technologies": {
+      "value": "30+",
+      "labelEn": "Technologies",
+      "labelAr": "تقنيات",
+      "sublabelEn": "Mastered",
+      "sublabelAr": "متقنة"
+    }
+  },
+  "coreExpertise": [
+    {
+      "icon": "Code2",
+      "titleEn": "Software Architecture",
+      "titleAr": "هندسة البرمجيات",
+      "descriptionEn": "Computer Engineer with strong background in software architecture and backend systems",
+      "descriptionAr": "مهندس حاسب مع خلفية قوية في هندسة البرمجيات وأنظمة Backend"
+    },
+    {
+      "icon": "Rocket",
+      "titleEn": "Backend Development",
+      "titleAr": "تطوير Backend",
+      "descriptionEn": "Specialized in Laravel, Node.js, and Microservices architectures",
+      "descriptionAr": "متخصص في Laravel و Node.js وبنى Microservices"
+    },
+    {
+      "icon": "Zap",
+      "titleEn": "Real-time Systems",
+      "titleAr": "الأنظمة الفورية",
+      "descriptionEn": "Experienced in real-time apps, API integrations, push notifications, and system automation",
+      "descriptionAr": "خبرة في التطبيقات الفورية وتكامل APIs والإشعارات وأتمتة الأنظمة"
+    },
+    {
+      "icon": "Target",
+      "titleEn": "Code Quality",
+      "titleAr": "جودة الكود",
+      "descriptionEn": "Passionate about performance optimization, clean code, and SOLID principles",
+      "descriptionAr": "شغوف بتحسين الأداء والكود النظيف ومبادئ SOLID"
+    }
+  ],
+  "featuredProjects": [
+    {
+      "icon": "BarChart3",
+      "titleEn": "AI Video Analysis Dashboard",
+      "titleAr": "لوحة تحليل الفيديو بالذكاء الاصطناعي",
+      "descriptionEn": "Developed a comprehensive dashboard integrating AI models for video analysis, rendering results, and predictions. Built with Laravel, Tailwind CSS, Blade templates, REST APIs, Node.js WebSockets, background job processing, deployed on Linux VPS with MySQL",
+      "descriptionAr": "تطوير لوحة تحكم شاملة تكامل نماذج الذكاء الاصطناعي لتحليل الفيديو وعرض النتائج والتنبؤات. مبني على Laravel و Tailwind CSS و Blade و REST APIs و Node.js WebSockets ومعالجة المهام الخلفية، منشور على Linux VPS مع MySQL",
+      "year": "2024-2025",
+      "tech": ["Laravel", "Tailwind CSS", "Blade", "Node.js", "WebSockets", "MySQL", "AI Integration", "Linux VPS"]
+    },
+    {
+      "icon": "Ticket",
+      "titleEn": "Ticket System with AI Agents & Chat Knowledge Base",
+      "titleAr": "نظام التذاكر مع وكلاء الذكاء الاصطناعي وقاعدة معرفة الدردشة",
+      "descriptionEn": "Advanced ticketing system with AI agents for automated customer support, integrated chat knowledge base, multi-channel communication (WhatsApp, email, SMS, push notifications), and intelligent ticket routing. Features AI-powered auto-replies, contextual understanding, and seamless integration with multiple subscribed companies",
+      "descriptionAr": "نظام تذاكر متقدم مع وكلاء الذكاء الاصطناعي لدعم العملاء الآلي، قاعدة معرفة دردشة متكاملة، اتصال متعدد القنوات (WhatsApp والبريد الإلكتروني و SMS والإشعارات)، وتوجيه التذاكر الذكي. يتضمن ردود تلقائية مدعومة بالذكاء الاصطناعي وفهم السياق وتكامل سلس مع شركات متعددة مشتركة",
+      "year": "2023-2024",
+      "tech": ["Laravel", "AI Agents", "Chat Knowledge Base", "WebSockets", "WhatsApp API", "MySQL", "Redis"]
+    },
+    {
+      "icon": "GitBranch",
+      "titleEn": "Flow Builder - Logistics & Shipping Integration",
+      "titleAr": "منشئ التدفق - التكامل اللوجستي والشحن",
+      "descriptionEn": "Flow Builder module for logistics and shipping companies with seamless integration across multiple sales channels. Features visual workflow designer, automated shipping carrier integration, real-time order tracking, multi-channel synchronization (Zid, Salla, and others), and comprehensive logistics management system",
+      "descriptionAr": "وحدة منشئ التدفق لشركات الخدمات اللوجستية والشحن مع تكامل سلس عبر قنوات المبيعات المتعددة. يتضمن مصمم سير عمل مرئي، تكامل ناقلات الشحن الآلي، تتبع الطلبات في الوقت الفعلي، مزامنة متعددة القنوات (Zid و Salla وغيرها)، ونظام إدارة لوجستي شامل",
+      "year": "2024-2025",
+      "tech": ["Laravel", "Flow Builder", "API Integration", "Webhooks", "Queue System", "Redis", "MySQL"]
+    },
+    {
+      "icon": "Wand2",
+      "titleEn": "API Generators System - Live Project Builder",
+      "titleAr": "نظام مولدات API - منشئ المشاريع المباشرة",
+      "descriptionEn": "Comprehensive API generation system for building live projects for mobile developers and frontend teams. Auto-generates RESTful APIs, GraphQL endpoints, documentation, authentication systems, and database schemas. Features real-time API testing, Swagger documentation, SDK generation, and seamless integration with frontend and mobile frameworks",
+      "descriptionAr": "نظام توليد API شامل لبناء مشاريع مباشرة لمطوري الهاتف المحمول وفرق Frontend. يولد تلقائياً RESTful APIs ونقاط نهاية GraphQL والوثائق وأنظمة المصادقة ومخططات قاعدة البيانات. يتضمن اختبار API في الوقت الفعلي ووثائق Swagger وإنشاء SDK وتكامل سلس مع أطر Frontend والهاتف المحمول",
+      "year": "2024",
+      "tech": ["Fastify", "Node.js", "TypeScript", "OpenAI API", "Swagger", "GraphQL", "Redis"]
+    }
+  ],
+  "allProjects": [
+    {
+      "icon": "BarChart3",
+      "titleEn": "AI Video Analysis Dashboard",
+      "titleAr": "لوحة تحليل الفيديو بالذكاء الاصطناعي",
+      "descriptionEn": "Developed a comprehensive dashboard integrating AI models for video analysis, rendering results, and predictions. Built with Laravel, Tailwind CSS, Blade templates, REST APIs, Node.js WebSockets, background job processing, deployed on Linux VPS with MySQL",
+      "descriptionAr": "تطوير لوحة تحكم شاملة تكامل نماذج الذكاء الاصطناعي لتحليل الفيديو وعرض النتائج والتنبؤات. مبني على Laravel و Tailwind CSS و Blade و REST APIs و Node.js WebSockets ومعالجة المهام الخلفية، منشور على Linux VPS مع MySQL",
+      "year": "2024-2025",
+      "tech": ["Laravel", "Tailwind CSS", "Blade", "Node.js", "WebSockets", "MySQL", "AI Integration", "Linux VPS"]
+    },
+    {
+      "icon": "Ticket",
+      "titleEn": "Ticket System with AI Agents & Chat Knowledge Base",
+      "titleAr": "نظام التذاكر مع وكلاء الذكاء الاصطناعي وقاعدة معرفة الدردشة",
+      "descriptionEn": "Advanced ticketing system with AI agents for automated customer support, integrated chat knowledge base, multi-channel communication (WhatsApp, email, SMS, push notifications), and intelligent ticket routing. Features AI-powered auto-replies, contextual understanding, and seamless integration with multiple subscribed companies",
+      "descriptionAr": "نظام تذاكر متقدم مع وكلاء الذكاء الاصطناعي لدعم العملاء الآلي، قاعدة معرفة دردشة متكاملة، اتصال متعدد القنوات (WhatsApp والبريد الإلكتروني و SMS والإشعارات)، وتوجيه التذاكر الذكي. يتضمن ردود تلقائية مدعومة بالذكاء الاصطناعي وفهم السياق وتكامل سلس مع شركات متعددة مشتركة",
+      "year": "2023-2024",
+      "tech": ["Laravel", "AI Agents", "Chat Knowledge Base", "WebSockets", "WhatsApp API", "MySQL", "Redis"]
+    },
+    {
+      "icon": "GitBranch",
+      "titleEn": "Flow Builder - Logistics & Shipping Integration",
+      "titleAr": "منشئ التدفق - التكامل اللوجستي والشحن",
+      "descriptionEn": "Flow Builder module for logistics and shipping companies with seamless integration across multiple sales channels. Features visual workflow designer, automated shipping carrier integration, real-time order tracking, multi-channel synchronization (Zid, Salla, and others), and comprehensive logistics management system",
+      "descriptionAr": "وحدة منشئ التدفق لشركات الخدمات اللوجستية والشحن مع تكامل سلس عبر قنوات المبيعات المتعددة. يتضمن مصمم سير عمل مرئي، تكامل ناقلات الشحن الآلي، تتبع الطلبات في الوقت الفعلي، مزامنة متعددة القنوات (Zid و Salla وغيرها)، ونظام إدارة لوجستي شامل",
+      "year": "2024-2025",
+      "tech": ["Laravel", "Flow Builder", "API Integration", "Webhooks", "Queue System", "Redis", "MySQL"]
+    },
+    {
+      "icon": "Wand2",
+      "titleEn": "API Generators System - Live Project Builder",
+      "titleAr": "نظام مولدات API - منشئ المشاريع المباشرة",
+      "descriptionEn": "Comprehensive API generation system for building live projects for mobile developers and frontend teams. Auto-generates RESTful APIs, GraphQL endpoints, documentation, authentication systems, and database schemas. Features real-time API testing, Swagger documentation, SDK generation, and seamless integration with frontend and mobile frameworks",
+      "descriptionAr": "نظام توليد API شامل لبناء مشاريع مباشرة لمطوري الهاتف المحمول وفرق Frontend. يولد تلقائياً RESTful APIs ونقاط نهاية GraphQL والوثائق وأنظمة المصادقة ومخططات قاعدة البيانات. يتضمن اختبار API في الوقت الفعلي ووثائق Swagger وإنشاء SDK وتكامل سلس مع أطر Frontend والهاتف المحمول",
+      "year": "2024",
+      "tech": ["Fastify", "Node.js", "TypeScript", "OpenAI API", "Swagger", "GraphQL", "Redis"]
+    },
+    {
+      "icon": "Calculator",
+      "titleEn": "Tourize - Simple Accountant System",
+      "titleAr": "Tourize - نظام محاسبة بسيط",
+      "descriptionEn": "Developed a comprehensive system for Tourize to manage invoices, Umrah bookings, flights, visas (including electronic visas), hotel bookings, expenses, employee salaries, insights, and reports. The system streamlined accounting and financial tracking for the company",
+      "descriptionAr": "تطوير نظام شامل لـ Tourize لإدارة الفواتير وحجوزات العمرة والطيران والتأشيرات (بما في ذلك التأشيرات الإلكترونية) وحجوزات الفنادق والمصروفات ورواتب الموظفين والرؤى والتقارير. النظام بسط المحاسبة والتتبع المالي للشركة",
+      "year": "2023",
+      "tech": ["Laravel", "MySQL", "PHP", "JavaScript", "Vue.js"]
+    },
+    {
+      "icon": "Ticket",
+      "titleEn": "Ticket System for Techsup",
+      "titleAr": "نظام التذاكر لـ Techsup",
+      "descriptionEn": "Created a ticketing system for Techsup to handle customer support for multiple subscribed companies. Integrated WhatsApp, API support, scheduled reports, and notifications (push, SMS, email). Customized ticket fields for each organization to cater to their specific needs",
+      "descriptionAr": "إنشاء نظام تذاكر لـ Techsup للتعامل مع دعم العملاء لشركات متعددة مشتركة. تكامل WhatsApp ودعم API والتقارير المجدولة والإشعارات (الإشعارات الفورية و SMS والبريد الإلكتروني). تخصيص حقول التذاكر لكل منظمة لتلبية احتياجاتها الخاصة",
+      "year": "2023",
+      "tech": ["Laravel", "WhatsApp API", "WebSockets", "MySQL", "Redis"]
+    },
+    {
+      "icon": "Globe",
+      "titleEn": "Techsup Company Website",
+      "titleAr": "موقع شركة Techsup",
+      "descriptionEn": "Designed and developed a portfolio website for Techsup, featuring a dynamic CMS dashboard to control and manage content. The site allowed for easy updates and content management",
+      "descriptionAr": "تصميم وتطوير موقع محفظة أعمال لـ Techsup، يتضمن لوحة CMS ديناميكية للتحكم في المحتوى وإدارته. الموقع يسمح بالتحديثات السهلة وإدارة المحتوى",
+      "year": "2023",
+      "tech": ["Laravel", "Blade", "MySQL", "JavaScript", "Tailwind CSS"]
+    },
+    {
+      "icon": "ShoppingCart",
+      "titleEn": "No Limits - E-commerce Website",
+      "titleAr": "No Limits - موقع تجارة إلكترونية",
+      "descriptionEn": "Built an e-commerce platform for No Limits, selling smart home products such as locks, sensors, and other IoT devices. Integrated a secure payment gateway for smooth transactions",
+      "descriptionAr": "بناء منصة تجارة إلكترونية لـ No Limits لبيع منتجات المنزل الذكي مثل الأقفال وأجهزة الاستشعار وأجهزة IoT الأخرى. تكامل بوابة دفع آمنة للمعاملات السلسة",
+      "year": "2023",
+      "tech": ["Laravel", "MySQL", "Payment Gateway", "JavaScript", "Vue.js"]
+    },
+    {
+      "icon": "Store",
+      "titleEn": "Yamal Alsham / Alabraj / Puzzly / Dyar",
+      "titleAr": "Yamal Alsham / Alabraj / Puzzly / Dyar",
+      "descriptionEn": "Purchased and customized the same script for multiple clients (Yamal Alsham, Alabraj, Puzzly, Dyar). Enhanced the features and deployed the sites for client-specific needs",
+      "descriptionAr": "شراء وتخصيص نفس السكريبت لعدة عملاء (Yamal Alsham و Alabraj و Puzzly و Dyar). تحسين الميزات ونشر المواقع لاحتياجات العملاء المحددة",
+      "year": "2022-2023",
+      "tech": ["Laravel", "PHP", "MySQL", "JavaScript", "Custom Scripts"]
+    },
+    {
+      "icon": "GraduationCap",
+      "titleEn": "Girls Power Academy",
+      "titleAr": "أكاديمية Girls Power",
+      "descriptionEn": "Developed a website for the Kuwait Sports Academy for Girls to allow users to book and subscribe for travel and training programs. Integrated a gallery for activity images and included a payment gateway for easy bookings",
+      "descriptionAr": "تطوير موقع لأكاديمية الكويت الرياضية للبنات للسماح للمستخدمين بالحجز والاشتراك في برامج السفر والتدريب. تكامل معرض للصور النشاط وتضمين بوابة دفع للحجوزات السهلة",
+      "year": "2023",
+      "tech": ["Laravel", "MySQL", "Payment Gateway", "JavaScript", "Image Gallery"]
+    },
+    {
+      "icon": "Video",
+      "titleEn": "MPPure - Media Agency Website",
+      "titleAr": "MPPure - موقع وكالة إعلامية",
+      "descriptionEn": "Created a portfolio website for MPPure Media Agency to showcase works, activities, and videos. Included a dynamic dashboard for easy content management",
+      "descriptionAr": "إنشاء موقع محفظة أعمال لوكالة MPPure الإعلامية لعرض الأعمال والأنشطة والفيديو. تضمن لوحة تحكم ديناميكية لإدارة المحتوى السهلة",
+      "year": "2023",
+      "tech": ["Laravel", "Blade", "MySQL", "Video Integration", "CMS"]
+    },
+    {
+      "icon": "Newspaper",
+      "titleEn": "Ajel Workflow - News Agency Dashboard",
+      "titleAr": "Ajel Workflow - لوحة وكالة الأنباء",
+      "descriptionEn": "Built a dashboard for Ajel News Agency to manage news articles and the editorial process. Features included role-based workflows for editors, publishers, reviewers, photographers, and graphic teams, along with article publishing and history logging",
+      "descriptionAr": "بناء لوحة تحكم لوكالة أنباء Ajel لإدارة مقالات الأخبار وعملية التحرير. تضمنت الميزات سير عمل قائم على الأدوار للمحررين والناشرين والمراجعين والمصورين وفرق الرسوم، إلى جانب نشر المقالات وتسجيل التاريخ",
+      "year": "2023",
+      "tech": ["Laravel", "Role-Based Access", "MySQL", "Workflow Management", "Blade"]
+    },
+    {
+      "icon": "Home",
+      "titleEn": "Akaraty - Real Estate Website",
+      "titleAr": "Akaraty - موقع عقارات",
+      "descriptionEn": "Developed a simple real estate website for Akaraty, showcasing properties for sale, bookings, and inquiries. Integrated a simple user interface for easy property management",
+      "descriptionAr": "تطوير موقع عقارات بسيط لـ Akaraty لعرض العقارات المعروضة للبيع والحجوزات والاستفسارات. تكامل واجهة مستخدم بسيطة لإدارة العقارات السهلة",
+      "year": "2023",
+      "tech": ["Laravel", "MySQL", "JavaScript", "Property Management", "Blade"]
+    },
+    {
+      "icon": "BookOpen",
+      "titleEn": "Coursaty - Online Course Platform (LMS)",
+      "titleAr": "Coursaty - منصة الدورات الإلكترونية (LMS)",
+      "descriptionEn": "Created a platform similar to Udemy for online courses, featuring exams, quizzes, assignments, lessons (including documents and images), and a system to manage students and teachers",
+      "descriptionAr": "إنشاء منصة مشابهة لـ Udemy للدورات الإلكترونية، تتضمن الامتحانات والاختبارات والواجبات والدروس (بما في ذلك المستندات والصور) ونظام لإدارة الطلاب والمعلمين",
+      "year": "2023",
+      "tech": ["Laravel", "LMS", "MySQL", "JavaScript", "Vue.js", "File Management"]
+    },
+    {
+      "icon": "MessageSquare",
+      "titleEn": "Smart Chat & Ticketing System",
+      "titleAr": "نظام الدردشة والتذاكر الذكي",
+      "descriptionEn": "Real-time Laravel chat widget with multi-admin support and auto-reply knowledge base",
+      "descriptionAr": "أداة دردشة Laravel في الوقت الفعلي مع دعم متعدد للمسؤولين وقاعدة معرفة للردود التلقائية",
+      "year": "2023",
+      "tech": ["Laravel", "jQuery", "Redis", "Laravel Echo", "WebSockets"]
+    },
+    {
+      "icon": "Truck",
+      "titleEn": "Logistics Integration Service",
+      "titleAr": "خدمة التكامل اللوجستي",
+      "descriptionEn": "Receives, validates, and stores webhooks from multiple sales channels like Zid",
+      "descriptionAr": "يستقبل ويتحقق ويخزن webhooks من قنوات المبيعات المتعددة مثل Zid",
+      "year": "2022",
+      "tech": ["Laravel", "Queue", "Redis", "MySQL", "API Integration"]
+    },
+    {
+      "icon": "Megaphone",
+      "titleEn": "SaaS Marketing Engine",
+      "titleAr": "محرك التسويق SaaS",
+      "descriptionEn": "Multi-channel campaign system supporting email, SMS, push, and WhatsApp",
+      "descriptionAr": "نظام حملات متعدد القنوات يدعم البريد الإلكتروني و SMS والإشعارات و WhatsApp",
+      "year": "2023",
+      "tech": ["Laravel", "Node.js", "FCM", "Meta API", "AWS SES"]
+    }
+  ],
+  "timeline": {
+    "experience": [
+      {
+        "titleEn": "Senior Full Stack Developer",
+        "titleAr": "مطور Full Stack أول",
+        "companyEn": "ISNAAD Fulfilment",
+        "companyAr": "ISNAAD Fulfilment",
+        "locationEn": "Egypt",
+        "locationAr": "مصر",
+        "periodEn": "January 2025 - Present",
+        "periodAr": "يناير 2025 - حتى الآن",
+        "pointsEn": [
+          "Integrated multiple shipping carriers and sales channels, developed applications for Zid and Salla platforms",
+          "Maintained real-time order status synchronization across all integrated systems",
+          "Designed and implemented adapter-based architecture patterns to enhance code quality and system scalability",
+          "Developed a lightweight Warehouse Management System (WMS) with custom APIs for external clients",
+          "Built an Electron.js application for silent label printing and automated label generation",
+          "Developed a comprehensive dashboard integrating AI models for video analysis, rendering results, and predictions using Laravel, Tailwind CSS, Blade templates, REST APIs, Node.js WebSockets, and background job processing, deployed on Linux VPS with MySQL",
+          "Worked on multiple projects similar to featured projects, implementing complex features and integrations",
+          "Managed end-to-end system integrations, optimizing server resources and infrastructure",
+          "Resolved security vulnerabilities and performance bottlenecks, ensuring system reliability",
+          "Provided technical support and guidance to clients and internal development teams"
+        ],
+        "pointsAr": [
+          "تكامل متعدد شركات الشحن وقنوات المبيعات، تطوير تطبيقات لمنصات Zid و Salla",
+          "صيانة تزامن حالة الطلب في الوقت الفعلي عبر جميع الأنظمة المتكاملة",
+          "تصميم وتنفيذ أنماط هندسة قائمة على المحولات لتحسين جودة الكود وقابلية توسع النظام",
+          "تطوير نظام إدارة مستودعات خفيف (WMS) مع APIs مخصصة للعملاء الخارجيين",
+          "بناء تطبيق Electron.js للطباعة الصامتة للعلامات وتوليد العلامات التلقائي",
+          "تطوير لوحة تحكم شاملة تكامل نماذج الذكاء الاصطناعي لتحليل الفيديو وعرض النتائج والتنبؤات باستخدام Laravel و Tailwind CSS و Blade و REST APIs و Node.js WebSockets ومعالجة المهام الخلفية، منشور على Linux VPS مع MySQL",
+          "العمل على مشاريع متعددة مشابهة للمشاريع المميزة، تنفيذ ميزات وتكاملات معقدة",
+          "إدارة تكاملات الأنظمة من البداية للنهاية، تحسين موارد الخادم والبنية التحتية",
+          "حل الثغرات الأمنية ومشاكل الأداء، ضمان موثوقية النظام",
+          "توفير الدعم الفني والإرشاد للعملاء وفرق التطوير الداخلية"
+        ]
+      },
+      {
+        "titleEn": "Full Stack Developer",
+        "titleAr": "مطور Full Stack",
+        "companyEn": "ConvertedIn",
+        "companyAr": "ConvertedIn",
+        "locationEn": "Egypt",
+        "locationAr": "مصر",
+        "periodEn": "May 2024 - November 2024",
+        "periodAr": "مايو 2024 - نوفمبر 2024",
+        "pointsEn": [
+          "Integrated and optimized multi-channel messaging infrastructure (SMS, email, push notifications, WhatsApp)",
+          "Enhanced data validation and segmentation algorithms to improve system accuracy and performance",
+          "Collaborated with clients to troubleshoot integration issues and resolve system errors",
+          "Ensured system stability and reliability through comprehensive testing and monitoring"
+        ],
+        "pointsAr": [
+          "تكامل وتحسين بنية الرسائل متعددة القنوات (SMS والبريد الإلكتروني والإشعارات و WhatsApp)",
+          "تحسين خوارزميات التحقق من البيانات والتقسيم لزيادة دقة وأداء النظام",
+          "التعاون مع العملاء لاستكشاف مشاكل التكامل وحل أخطاء النظام",
+          "ضمان استقرار وموثوقية النظام من خلال الاختبارات والمراقبة الشاملة"
+        ]
+      },
+      {
+        "titleEn": "Mid Software Engineer",
+        "titleAr": "مهندس برمجيات متوسط",
+        "companyEn": "Marketing Home Group (MHG)",
+        "companyAr": "Marketing Home Group (MHG)",
+        "locationEn": "Egypt",
+        "locationAr": "مصر",
+        "periodEn": "March 2024 - June 2024",
+        "periodAr": "مارس 2024 - يونيو 2024",
+        "pointsEn": [
+          "Developed and maintained robust RESTful APIs to support frontend applications and mobile interfaces",
+          "Ensured seamless integration and efficient data exchange between backend services and user interfaces",
+          "Led full product lifecycle management, including e-commerce platforms for building stations and lighting stores",
+          "Migrated payment gateway infrastructure to Moyasar and integrated Apple Pay and Tamara payment systems",
+          "Enhanced user experience by providing multiple secure payment options and seamless transaction flows",
+          "Rebuilt project architecture in Microsoft Azure, optimizing deployment pipelines and CI/CD processes",
+          "Implemented enhanced Git branch management strategies for staging and production environments",
+          "Resolved database performance issues through query optimization and structural improvements"
+        ],
+        "pointsAr": [
+          "تطوير وصيانة RESTful APIs قوية لدعم تطبيقات Frontend وواجهات الهاتف المحمول",
+          "ضمان التكامل السلس وتبادل البيانات الفعال بين خدمات Backend وواجهات المستخدم",
+          "قيادة إدارة دورة حياة المنتج الكاملة، بما في ذلك منصات التجارة الإلكترونية لمحطات البناء ومتاجر الإضاءة",
+          "نقل بنية بوابة الدفع إلى Moyasar وتكامل أنظمة الدفع Apple Pay و Tamara",
+          "تحسين تجربة المستخدم من خلال توفير خيارات دفع متعددة وآمنة وتدفقات معاملات سلسة",
+          "إعادة بناء بنية المشروع في Microsoft Azure، تحسين خطوط النشر وعمليات CI/CD",
+          "تنفيذ استراتيجيات إدارة فروع Git محسنة لبيئات التطوير والإنتاج",
+          "حل مشاكل أداء قاعدة البيانات من خلال تحسين الاستعلامات والتحسينات الهيكلية"
+        ]
+      },
+      {
+        "titleEn": "Software Engineer",
+        "titleAr": "مهندس برمجيات",
+        "companyEn": "Qaf Quran (Remote Part Time)",
+        "companyAr": "Qaf Quran (عن بُعد بدوام جزئي)",
+        "locationEn": "Remote",
+        "locationAr": "عن بُعد",
+        "periodEn": "May 2023 - December 2023",
+        "periodAr": "مايو 2023 - ديسمبر 2023",
+        "pointsEn": [
+          "Diagnosed and resolved technical issues in production environments, ensuring system uptime and reliability",
+          "Deployed Beta releases for feature testing and validation before production deployment",
+          "Developed and integrated new features for web platform and mobile application APIs",
+          "Optimized application performance through SQL query refactoring and implementation of eager loading techniques",
+          "Configured VPS infrastructure with Nginx web server and MySQL database server",
+          "Implemented multi-staging environments (beta and production) using virtual hosts configuration",
+          "Configured Cloudflare DNS for improved content delivery and security",
+          "Deployed Jitsi Meeting as a self-hosted video conferencing solution, eliminating dependency on third-party services",
+          "Automated deployment processes using GitHub Actions and FTP integration",
+          "Designed and implemented a comprehensive reporting system to streamline organizational workflows"
+        ],
+        "pointsAr": [
+          "تشخيص وحل المشاكل التقنية في بيئات الإنتاج، ضمان وقت التشغيل وموثوقية النظام",
+          "نشر إصدارات Beta لاختبار الميزات والتحقق قبل النشر في الإنتاج",
+          "تطوير وتكامل ميزات جديدة لمنصة الويب و APIs تطبيق الهاتف المحمول",
+          "تحسين أداء التطبيق من خلال إعادة هيكلة استعلامات SQL وتنفيذ تقنيات التحميل المبكر",
+          "تكوين بنية VPS مع خادم الويب Nginx وخادم قاعدة البيانات MySQL",
+          "تنفيذ بيئات متعددة المراحل (beta والإنتاج) باستخدام تكوين المضيفين الافتراضيين",
+          "تكوين Cloudflare DNS لتحسين توصيل المحتوى والأمان",
+          "نشر Jitsi Meeting كحل مؤتمرات فيديو مستضاف ذاتياً، إزالة الاعتماد على خدمات الطرف الثالث",
+          "أتمتة عمليات النشر باستخدام GitHub Actions وتكامل FTP",
+          "تصميم وتنفيذ نظام تقارير شامل لتبسيط سير عمل المؤسسة"
+        ]
+      },
+      {
+        "titleEn": "Backend Developer",
+        "titleAr": "مطور Backend",
+        "companyEn": "Creatify network",
+        "companyAr": "Creatify network",
+        "locationEn": "Egypt",
+        "locationAr": "مصر",
+        "periodEn": "December 2022 - December 2023",
+        "periodAr": "ديسمبر 2022 - ديسمبر 2023",
+        "pointsEn": [
+          "Developed and maintained Business APIs for frontend and mobile application teams",
+          "Enhanced live production applications by implementing new features and performance optimizations",
+          "Managed integrations with third-party services including Twilio, Vehicles API, Google Services, and Facebook Graph API",
+          "Designed and implemented serverless functions on AWS Lambda using Node.js",
+          "Integrated disparate systems and facilitated data migration projects while ensuring data integrity",
+          "Diagnosed and resolved technical issues in production environments to maintain system stability",
+          "Configured and deployed RESTful APIs with seamless third-party service integration"
+        ],
+        "pointsAr": [
+          "تطوير وصيانة Business APIs لفرق تطبيقات Frontend والهاتف المحمول",
+          "تحسين التطبيقات الحية في الإنتاج من خلال تنفيذ ميزات جديدة وتحسينات الأداء",
+          "إدارة التكاملات مع خدمات الطرف الثالث بما في ذلك Twilio و Vehicles API و Google Services و Facebook Graph API",
+          "تصميم وتنفيذ دوال serverless على AWS Lambda باستخدام Node.js",
+          "تكامل الأنظمة المتباينة وتسهيل مشاريع نقل البيانات مع ضمان سلامة البيانات",
+          "تشخيص وحل المشاكل التقنية في بيئات الإنتاج للحفاظ على استقرار النظام",
+          "تكوين ونشر RESTful APIs مع تكامل سلس لخدمات الطرف الثالث"
+        ]
+      },
+      {
+        "titleEn": "PHP Developer",
+        "titleAr": "مطور PHP",
+        "companyEn": "Good News For Me (GN4ME)",
+        "companyAr": "Good News For Me (GN4ME)",
+        "locationEn": "Egypt",
+        "locationAr": "مصر",
+        "periodEn": "June 2021 - October 2021",
+        "periodAr": "يونيو 2021 - أكتوبر 2021",
+        "pointsEn": [
+          "Designed and implemented database models and schema structures for web applications",
+          "Developed responsive frontend interfaces using Bootstrap framework",
+          "Built server-side applications using Laravel PHP framework with MySQL database",
+          "Integrated third-party APIs and services to extend application functionality",
+          "Maintained and optimized HTML templates and user interface components"
+        ],
+        "pointsAr": [
+          "تصميم وتنفيذ نماذج قاعدة البيانات وهياكل المخططات لتطبيقات الويب",
+          "تطوير واجهات Frontend متجاوبة باستخدام إطار عمل Bootstrap",
+          "بناء تطبيقات جانب الخادم باستخدام إطار عمل Laravel PHP مع قاعدة بيانات MySQL",
+          "تكامل APIs وخدمات الطرف الثالث لتوسيع وظائف التطبيق",
+          "صيانة وتحسين قوالب HTML ومكونات واجهة المستخدم"
+        ]
+      },
+      {
+        "titleEn": "Software Engineer Intern",
+        "titleAr": "مهندس برمجيات متدرب",
+        "companyEn": "Storky App",
+        "companyAr": "Storky App",
+        "locationEn": "Egypt",
+        "locationAr": "مصر",
+        "periodEn": "January 2019 - April 2019",
+        "periodAr": "يناير 2019 - أبريل 2019",
+        "pointsEn": [
+          "Developed and customized WordPress websites for client requirements",
+          "Integrated Google Maps API to provide location-based services and interactive maps",
+          "Developed custom PHP scripts for data processing and functionality enhancement",
+          "Maintained and updated website content and functionality"
+        ],
+        "pointsAr": [
+          "تطوير وتخصيص مواقع WordPress وفقاً لمتطلبات العملاء",
+          "تكامل Google Maps API لتوفير خدمات قائمة على الموقع والخرائط التفاعلية",
+          "تطوير نصوص PHP مخصصة لمعالجة البيانات وتحسين الوظائف",
+          "صيانة وتحديث محتوى ووظائف الموقع"
+        ]
+      }
+    ],
+    "education": [
+      {
+        "titleEn": "Bachelor's Degree in Computer Engineering",
+        "titleAr": "بكالوريوس هندسة الحاسب",
+        "institutionEn": "Menofia University",
+        "institutionAr": "جامعة المنوفية",
+        "locationEn": "Egypt",
+        "locationAr": "مصر",
+        "periodEn": "July 2017 - August 2021",
+        "periodAr": "يوليو 2017 - أغسطس 2021",
+        "descriptionEn": "GPA: 3.3 | Overall Grade: Very Good with Honors | Graduation Project: Excellent",
+        "descriptionAr": "المعدل التراكمي: 3.3 | التقدير العام: جيد جداً مع مرتبة الشرف | مشروع التخرج: ممتاز"
+      },
+      {
+        "titleEn": "Summer Training - Open Source Web Development",
+        "titleAr": "تدريب صيفي - تطوير الويب مفتوح المصدر",
+        "institutionEn": "Information Technology Institute (ITI)",
+        "institutionAr": "معهد تكنولوجيا المعلومات (ITI)",
+        "locationEn": "Egypt",
+        "locationAr": "مصر",
+        "periodEn": "August 2020 - October 2020",
+        "periodAr": "أغسطس 2020 - أكتوبر 2020",
+        "descriptionEn": "Completed 126 hours in Open Source Web Development",
+        "descriptionAr": "إكمال 126 ساعة في تطوير الويب مفتوح المصدر"
+      },
+      {
+        "titleEn": "Open Source Web Development",
+        "titleAr": "تطوير الويب مفتوح المصدر",
+        "institutionEn": "Information Technology Institute (ITI)",
+        "institutionAr": "معهد تكنولوجيا المعلومات (ITI)",
+        "locationEn": "Egypt",
+        "locationAr": "مصر",
+        "periodEn": "2020",
+        "periodAr": "2020",
+        "descriptionEn": "Certificate",
+        "descriptionAr": "شهادة"
+      },
+      {
+        "titleEn": "Innove Egypt & Intel",
+        "titleAr": "Innove Egypt & Intel",
+        "institutionEn": "KFS University",
+        "institutionAr": "جامعة KFS",
+        "locationEn": "Egypt",
+        "locationAr": "مصر",
+        "periodEn": "2019",
+        "periodAr": "2019",
+        "descriptionEn": "Certificate",
+        "descriptionAr": "شهادة"
+      },
+      {
+        "titleEn": "Reverse Engineering & Penetration Testing",
+        "titleAr": "الهندسة العكسية واختبار الاختراق",
+        "institutionEn": "Cyber Talent",
+        "institutionAr": "Cyber Talent",
+        "locationEn": "Egypt",
+        "locationAr": "مصر",
+        "periodEn": "2018",
+        "periodAr": "2018",
+        "descriptionEn": "Certificate",
+        "descriptionAr": "شهادة"
+      },
+      {
+        "titleEn": "Talent Graphic 2D",
+        "titleAr": "موهبة الرسومات ثنائية الأبعاد",
+        "institutionEn": "Talent Academy",
+        "institutionAr": "أكاديمية المواهب",
+        "locationEn": "Egypt",
+        "locationAr": "مصر",
+        "periodEn": "2017",
+        "periodAr": "2017",
+        "descriptionEn": "Certificate",
+        "descriptionAr": "شهادة"
+      }
+    ],
+    "header": {
+      "badgeEn": "Professional Journey",
+      "badgeAr": "الرحلة المهنية",
+      "titleEn": "Experience & Education",
+      "titleAr": "الخبرة والتعليم",
+      "descriptionEn": "My professional journey and educational background",
+      "descriptionAr": "رحلتي المهنية والخلفية التعليمية"
+    }
+  },
+  "contact": {
+    "email": "hatem_mohamed_elsheref@yahoo.com",
+    "whatsapp": "+201090703457",
+    "socialLinks": [
+      {
+        "icon": "Mail",
+        "label": "Email",
+        "href": "mailto:hatem_mohamed_elsheref@yahoo.com"
+      },
+      {
+        "icon": "Linkedin",
+        "label": "LinkedIn",
+        "href": "https://linkedin.com/in/hatem-elsheref"
+      },
+      {
+        "icon": "Twitter",
+        "label": "Twitter",
+        "href": "https://twitter.com/hatem_elshere"
+      },
+      {
+        "icon": "Github",
+        "label": "GitHub",
+        "href": "https://github.com/hatem-elsheref"
+      }
+    ]
+  },
+  "footer": {
+    "descriptionEn": "Full Stack Developer specializing in Laravel, Node.js, and Vue.js. Building scalable applications with modern technologies.",
+    "descriptionAr": "مطور Full Stack متخصص في Laravel و Node.js و Vue.js. بناء تطبيقات قابلة للتوسع باستخدام التقنيات الحديثة.",
+    "copyrightNameEn": "Hatem Mohamed",
+    "copyrightNameAr": "حاتم محمد"
+  },
+  "resume": {
+    "cvPath": "/Hatem__Mohamed__Elsheref__CV.pdf",
+    "cvFileName": "Hatem__Mohamed__Elsheref__CV.pdf"
+  }
+}
+

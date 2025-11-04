@@ -8,91 +8,91 @@ All colors MUST be HSL.
 
 @layer base {
   :root {
-    --background: 210 40% 98%;
-    --foreground: 215 25% 15%;
+    --background: 40 20% 98%;
+    --foreground: 25 25% 15%;
 
     --card: 0 0% 100%;
-    --card-foreground: 215 25% 15%;
+    --card-foreground: 25 25% 15%;
 
     --popover: 0 0% 100%;
-    --popover-foreground: 215 25% 15%;
+    --popover-foreground: 25 25% 15%;
 
-    --primary: 210 100% 50%;
+    --primary: 25 95% 53%;
     --primary-foreground: 0 0% 100%;
-    --primary-glow: 195 100% 60%;
+    --primary-glow: 45 95% 55%;
 
-    --secondary: 200 100% 45%;
+    --secondary: 35 95% 50%;
     --secondary-foreground: 0 0% 100%;
 
-    --muted: 210 30% 92%;
-    --muted-foreground: 215 15% 45%;
+    --muted: 40 20% 92%;
+    --muted-foreground: 25 15% 45%;
 
-    --accent: 195 85% 55%;
+    --accent: 45 93% 47%;
     --accent-foreground: 0 0% 100%;
 
     --destructive: 0 84.2% 60.2%;
     --destructive-foreground: 0 0% 100%;
 
-    --border: 210 25% 88%;
-    --input: 210 25% 88%;
-    --ring: 210 100% 50%;
+    --border: 35 25% 88%;
+    --input: 35 25% 88%;
+    --ring: 25 95% 53%;
 
     --radius: 0.75rem;
 
     /* Portfolio specific tokens */
-    --hero-gradient: linear-gradient(135deg, hsl(210 100% 50%), hsl(195 100% 60%));
-    --card-gradient: linear-gradient(145deg, hsl(0 0% 100% / 0.6), hsl(210 40% 98% / 0.8));
-    --tech-badge-bg: hsl(210 40% 96%);
-    --tech-badge-border: hsl(210 30% 88%);
+    --hero-gradient: linear-gradient(135deg, hsl(25 95% 53%), hsl(45 95% 55%));
+    --card-gradient: linear-gradient(145deg, hsl(0 0% 100% / 0.6), hsl(40 20% 98% / 0.8));
+    --tech-badge-bg: hsl(40 20% 96%);
+    --tech-badge-border: hsl(35 25% 88%);
     
-    --shadow-sm: 0 2px 8px hsl(210 15% 70% / 0.12);
-    --shadow-md: 0 4px 16px hsl(210 15% 60% / 0.16);
-    --shadow-lg: 0 8px 32px hsl(210 15% 50% / 0.2);
-    --shadow-glow: 0 0 40px hsl(210 100% 50% / 0.15);
+    --shadow-sm: 0 2px 8px hsl(25 15% 70% / 0.12);
+    --shadow-md: 0 4px 16px hsl(25 15% 60% / 0.16);
+    --shadow-lg: 0 8px 32px hsl(25 15% 50% / 0.2);
+    --shadow-glow: 0 0 40px hsl(25 95% 53% / 0.15);
 
     --transition-smooth: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
   }
 
   .dark {
-    --background: 220 25% 8%;
-    --foreground: 210 40% 95%;
+    --background: 25 25% 8%;
+    --foreground: 45 30% 95%;
 
-    --card: 220 20% 12%;
-    --card-foreground: 210 40% 95%;
+    --card: 25 20% 12%;
+    --card-foreground: 45 30% 95%;
 
-    --popover: 220 20% 12%;
-    --popover-foreground: 210 40% 95%;
+    --popover: 25 20% 12%;
+    --popover-foreground: 45 30% 95%;
 
-    --primary: 210 100% 55%;
+    --primary: 25 95% 58%;
     --primary-foreground: 0 0% 100%;
-    --primary-glow: 195 100% 65%;
+    --primary-glow: 45 95% 60%;
 
-    --secondary: 200 95% 50%;
+    --secondary: 35 95% 55%;
     --secondary-foreground: 0 0% 100%;
 
-    --muted: 220 20% 16%;
-    --muted-foreground: 215 15% 60%;
+    --muted: 25 20% 16%;
+    --muted-foreground: 40 15% 60%;
 
-    --accent: 195 85% 60%;
+    --accent: 45 90% 55%;
     --accent-foreground: 0 0% 100%;
 
     --destructive: 0 70% 55%;
     --destructive-foreground: 0 0% 100%;
 
-    --border: 220 20% 18%;
-    --input: 220 20% 18%;
-    --ring: 210 100% 55%;
+    --border: 25 20% 18%;
+    --input: 25 20% 18%;
+    --ring: 25 95% 58%;
 
     /* Portfolio specific tokens - dark mode */
-    --hero-gradient: linear-gradient(135deg, hsl(210 90% 40%), hsl(195 85% 50%));
-    --card-gradient: linear-gradient(145deg, hsl(220 20% 14% / 0.8), hsl(220 20% 10% / 0.6));
-    --tech-badge-bg: hsl(220 20% 16%);
-    --tech-badge-border: hsl(220 15% 25%);
+    --hero-gradient: linear-gradient(135deg, hsl(25 90% 45%), hsl(45 85% 50%));
+    --card-gradient: linear-gradient(145deg, hsl(25 20% 14% / 0.8), hsl(25 20% 10% / 0.6));
+    --tech-badge-bg: hsl(25 20% 16%);
+    --tech-badge-border: hsl(25 15% 25%);
     
     --shadow-sm: 0 2px 8px hsl(0 0% 0% / 0.3);
     --shadow-md: 0 4px 16px hsl(0 0% 0% / 0.4);
     --shadow-lg: 0 8px 32px hsl(0 0% 0% / 0.5);
-    --shadow-glow: 0 0 50px hsl(210 100% 50% / 0.25);
+    --shadow-glow: 0 0 50px hsl(25 95% 53% / 0.25);
   }
 }
 
@@ -146,5 +146,51 @@ All colors MUST be HSL.
       opacity: 1;
       transform: translateY(0);
     }
+  }
+
+  @keyframes fadeInUp {
+    from {
+      opacity: 0;
+      transform: translateY(30px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+
+  @keyframes animate-gradient {
+    0%, 100% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+  }
+
+  @keyframes float {
+    0%, 100% {
+      transform: translateY(0) translateX(0);
+      opacity: 0;
+    }
+    10% {
+      opacity: 1;
+    }
+    90% {
+      opacity: 1;
+    }
+    50% {
+      transform: translateY(-20px) translateX(10px);
+      opacity: 0.5;
+    }
+  }
+
+  .animate-float {
+    animation: float 4s ease-in-out infinite;
+  }
+
+  .animate-gradient {
+    background-size: 200% 200%;
+    animation: animate-gradient 3s ease infinite;
   }
 }
