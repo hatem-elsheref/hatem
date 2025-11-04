@@ -8,9 +8,6 @@
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/hatem-elsheref)
 [![Twitter](https://img.shields.io/badge/Twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white)](https://twitter.com/hatem_elshere)
 [![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/hatem-elsheref)
-[![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:hatem_mohamed_elsheref@yahoo.com)
-[![WhatsApp](https://img.shields.io/badge/WhatsApp-25D366?style=for-the-badge&logo=whatsapp&logoColor=white)](https://wa.me/201090703457)
-
 </div>
 
 ---
@@ -19,9 +16,21 @@
 
 <div align="center">
   
-![GitHub Stats](https://github-readme-stats.vercel.app/api?username=hatem-elsheref&show_icons=true&theme=radical&hide_border=true&bg_color=0D1117&title_color=FF6B35&icon_color=FF6B35)
-![GitHub Streak](https://github-readme-streak-stats.demolab.com/?user=hatem-elsheref&theme=radical&hide_border=true&background=0D1117&ring=FF6B35&fire=FF6B35&currStreakLabel=FF6B35)
-![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=hatem-elsheref&layout=compact&theme=radical&hide_border=true&bg_color=0D1117&title_color=FF6B35)
+
+### 📊 GitHub Stats
+
+<a href="https://github.com/hatem-elsheref">
+  <img height="170" src="https://github-readme-stats.vercel.app/api?username=hatem-elsheref&show_icons=true&theme=radical&hide_border=true&bg_color=0D1117&title_color=FF6B35&icon_color=FF6B35" />
+  <img height="170" src="https://streak-stats.demolab.com?user=hatem-elsheref&theme=radical&hide_border=true&background=0D1117&ring=FF6B35&fire=FF6B35&currStreakLabel=FF6B35" />
+</a>
+
+---
+
+### 💡 Most Used Languages
+
+<a href="https://github.com/hatem-elsheref">
+  <img height="180" src="https://github-readme-stats.vercel.app/api/top-langs/?username=hatem-elsheref&layout=compact&theme=radical&hide_border=true&bg_color=0D1117&title_color=FF6B35" />
+</a>
 
 </div>
 
@@ -150,9 +159,8 @@ Multi-channel campaign system supporting email, SMS, push notifications, and Wha
 ## 🎓 Education
 
 ### 🎓 Bachelor's Degree in Computer Engineering
-**Menofia University** | *July 2017 - August 2021*
+**Menofia University** 
 
-- **GPA:** 3.3
 - **Overall Grade:** Very Good with Honors
 - **Graduation Project:** Excellent
 
@@ -169,34 +177,6 @@ Multi-channel campaign system supporting email, SMS, push notifications, and Wha
 - **Reverse Engineering & Penetration Testing** - Cyber Talent - 2018
 - **Innove Egypt & Intel** - KFS University - 2019
 - **Talent Graphic 2D** - Talent Academy - 2017
-
----
-
-## 💼 Professional Experience
-
-### 👨‍💻 Senior Full Stack Developer
-**ISNAAD Fulfilment** | *January 2025 - Present*
-
-- Integrated multiple shipping carriers and sales channels, developed applications for Zid and Salla platforms
-- Developed comprehensive dashboard integrating AI models for video analysis, rendering results, and predictions
-- Designed and implemented adapter-based architecture patterns to enhance code quality and system scalability
-- Built an Electron.js application for silent label printing and automated label generation
-- Managed end-to-end system integrations, optimizing server resources and infrastructure
-
-### 💻 Full Stack Developer
-**ConvertedIn** | *May 2024 - November 2024*
-
-- Integrated and optimized multi-channel messaging infrastructure (SMS, email, push notifications, WhatsApp)
-- Enhanced data validation and segmentation algorithms to improve system accuracy and performance
-- Ensured system stability and reliability through comprehensive testing and monitoring
-
-### 🔧 Mid Software Engineer
-**Marketing Home Group (MHG)** | *March 2024 - June 2024*
-
-- Developed and maintained robust RESTful APIs to support frontend applications and mobile interfaces
-- Led full product lifecycle management, including e-commerce platforms
-- Migrated payment gateway infrastructure to Moyasar and integrated Apple Pay and Tamara payment systems
-- Rebuilt project architecture in Microsoft Azure, optimizing deployment pipelines and CI/CD processes
 
 ---
 
@@ -230,9 +210,6 @@ I'm always open to collaboration, learning, and innovation. Let's build somethin
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/hatem-elsheref)
 [![Twitter](https://img.shields.io/badge/Twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white)](https://twitter.com/hatem_elshere)
 [![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/hatem-elsheref)
-[![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:hatem_mohamed_elsheref@yahoo.com)
-[![WhatsApp](https://img.shields.io/badge/WhatsApp-25D366?style=for-the-badge&logo=whatsapp&logoColor=white)](https://wa.me/201090703457)
-
 </div>
 
 ---
