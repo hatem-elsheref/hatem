@@ -14,7 +14,11 @@ const translations = {
   en: {
     // Navigation
     home: "Home",
+    about: "About",
+    skills: "Skills",
+    projects: "Projects",
     resume: "Resume",
+    contact: "Contact",
     downloadCV: "Download CV",
     
     // Hero
@@ -45,7 +49,9 @@ const translations = {
     
     // Projects
     projectsTitle: "Featured Projects",
-    techUsed: "Tech Used",
+    allProjects: "View All Projects",
+    techUsed: "Technologies Used",
+    projectDetails: "Project Details",
     
     // Contact
     contactTitle: "Get In Touch",
@@ -73,7 +79,11 @@ const translations = {
   ar: {
     // Navigation
     home: "الرئيسية",
+    about: "نبذة",
+    skills: "المهارات",
+    projects: "المشاريع",
     resume: "السيرة الذاتية",
+    contact: "تواصل",
     downloadCV: "تحميل السيرة الذاتية",
     
     // Hero
@@ -104,7 +114,9 @@ const translations = {
     
     // Projects
     projectsTitle: "المشاريع المميزة",
+    allProjects: "عرض جميع المشاريع",
     techUsed: "التقنيات المستخدمة",
+    projectDetails: "تفاصيل المشروع",
     
     // Contact
     contactTitle: "تواصل معي",

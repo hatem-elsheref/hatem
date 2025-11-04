@@ -1,6 +1,6 @@
 import { useLanguage } from "@/contexts/LanguageContext";
-import { Badge } from "@/components/ui/badge";
 import { Card } from "@/components/ui/card";
+import { SkillIcon } from "./SkillIcon";
 
 export function Skills() {
   const { t } = useLanguage();
@@ -8,11 +8,11 @@ export function Skills() {
   const skillCategories = [
     {
       title: t("languages"),
-      skills: ["PHP", "JavaScript", "HTML5", "CSS3", "SQL", "TypeScript"],
+      skills: ["PHP", "JavaScript", "TypeScript", "HTML5", "CSS3", "SQL"],
     },
     {
       title: t("frameworks"),
-      skills: ["Laravel", "Lumen", "Node.js", "Express.js", "Vue.js", "Bootstrap", "Tailwind CSS", "React"],
+      skills: ["Laravel", "Lumen", "Node.js", "Express.js", "Vue.js", "React", "Bootstrap", "Tailwind CSS"],
     },
     {
       title: t("architecture"),
@@ -24,11 +24,11 @@ export function Skills() {
     },
     {
       title: t("databases"),
-      skills: ["MySQL", "SQLite", "MongoDB", "Redis", "PostgreSQL"],
+      skills: ["MySQL", "PostgreSQL", "MongoDB", "Redis", "SQLite"],
     },
     {
       title: t("cloud"),
-      skills: ["AWS S3", "AWS SES", "AWS SNS", "FCM", "RabbitMQ", "WebSockets"],
+      skills: ["AWS S3", "AWS SES", "AWS SNS", "FCM", "RabbitMQ"],
     },
     {
       title: t("devops"),
@@ -48,25 +48,27 @@ export function Skills() {
         </h2>
 
         <div className="mx-auto max-w-6xl">
-          <div className="grid gap-6 md:grid-cols-2">
+          <div className="grid gap-6 md:grid-cols-2 lg:grid-cols-4">
             {skillCategories.map((category, index) => (
               <Card
                 key={index}
                 className="card-hover p-6"
                 style={{ animationDelay: `${index * 50}ms` }}
               >
-                <h3 className="mb-4 text-xl font-semibold text-primary">
+                <h3 className="mb-4 text-lg font-semibold text-primary">
                   {category.title}
                 </h3>
-                <div className="flex flex-wrap gap-2">
+                <div className="space-y-3">
                   {category.skills.map((skill) => (
-                    <Badge
+                    <div
                       key={skill}
-                      variant="secondary"
-                      className="px-3 py-1 text-sm"
+                      className="flex items-center gap-3 rounded-lg bg-background/60 p-2 transition-colors hover:bg-background"
                     >
-                      {skill}
-                    </Badge>
+                      <div className="flex h-8 w-8 shrink-0 items-center justify-center rounded-md bg-primary/10">
+                        <SkillIcon name={skill} className="h-4 w-4 text-primary" />
+                      </div>
+                      <span className="text-sm font-medium">{skill}</span>
+                    </div>
                   ))}
                 </div>
               </Card>

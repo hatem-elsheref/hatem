@@ -7,6 +7,7 @@ import { ThemeProvider } from "@/contexts/ThemeContext";
 import { LanguageProvider } from "@/contexts/LanguageContext";
 import { Header } from "@/components/Header";
 import Index from "./pages/Index";
+import Projects from "./pages/Projects";
 import Resume from "./pages/Resume";
 import NotFound from "./pages/NotFound";
 
@@ -23,6 +24,7 @@ const App = () => (
             <Header />
             <Routes>
               <Route path="/" element={<Index />} />
+              <Route path="/projects" element={<Projects />} />
               <Route path="/resume" element={<Resume />} />
               {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
               <Route path="*" element={<NotFound />} />

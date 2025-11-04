@@ -18,7 +18,7 @@ export function Header() {
           <span className="text-xl font-bold text-gradient">Hatem Mohamed</span>
         </Link>
 
-        <nav className="flex items-center gap-6">
+        <nav className="flex items-center gap-4 md:gap-6">
           <Link
             to="/"
             className={`text-sm font-medium transition-colors hover:text-primary ${
@@ -26,6 +26,14 @@ export function Header() {
             }`}
           >
             {t("home")}
+          </Link>
+          <Link
+            to="/projects"
+            className={`text-sm font-medium transition-colors hover:text-primary ${
+              isActive("/projects") ? "text-primary" : "text-muted-foreground"
+            }`}
+          >
+            {t("projects")}
           </Link>
           <Link
             to="/resume"

@@ -1,7 +1,9 @@
 import { useLanguage } from "@/contexts/LanguageContext";
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
-import { MessageSquare, Truck, Megaphone, Wand2 } from "lucide-react";
+import { Button } from "@/components/ui/button";
+import { MessageSquare, Truck, Megaphone, Wand2, ArrowRight } from "lucide-react";
+import { Link } from "react-router-dom";
 
 export function Projects() {
   const { t, language } = useLanguage();
@@ -44,13 +46,21 @@ export function Projects() {
   return (
     <section id="projects" className="py-20">
       <div className="container">
-        <h2 className="mb-12 text-center text-3xl font-bold md:text-4xl">
-          {t("projectsTitle")}
-        </h2>
+        <div className="mb-12 flex items-center justify-between">
+          <h2 className="text-3xl font-bold md:text-4xl">
+            {t("projectsTitle")}
+          </h2>
+          <Button asChild variant="outline" className="gap-2">
+            <Link to="/projects">
+              {t("allProjects")}
+              <ArrowRight className="h-4 w-4" />
+            </Link>
+          </Button>
+        </div>
 
         <div className="mx-auto max-w-6xl">
           <div className="grid gap-6 md:grid-cols-2">
-            {projects.map((project, index) => (
+            {projects.slice(0, 4).map((project, index) => (
               <Card
                 key={index}
                 className="card-hover"
