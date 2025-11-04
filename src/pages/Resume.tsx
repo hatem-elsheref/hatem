@@ -2,6 +2,7 @@ import { Button } from "@/components/ui/button";
 import { Card } from "@/components/ui/card";
 import { Printer, Download, FileDown } from "lucide-react";
 import { useLanguage } from "@/contexts/LanguageContext";
+import { usePortfolioData } from "@/hooks/usePortfolioData";
 import { ResumeEnglish } from "@/components/ResumeEnglish";
 import { ResumeArabic } from "@/components/ResumeArabic";
 import { Footer } from "@/components/Footer";
@@ -9,6 +10,7 @@ import { WhatsAppFloat } from "@/components/WhatsAppFloat";
 
 export default function Resume() {
   const { language, t } = useLanguage();
+  const portfolioData = usePortfolioData();
   
   const handlePrintToPDF = () => {
     // Hide non-printable elements
@@ -30,8 +32,8 @@ export default function Resume() {
 
   const handleDownload = () => {
     const link = document.createElement("a");
-    link.href = "/Hatem__Mohamed__Elsheref__CV.pdf";
-    link.download = "Hatem__Mohamed__Elsheref__CV.pdf";
+    link.href = portfolioData.resume.cvPath;
+    link.download = portfolioData.resume.cvFileName;
     link.click();
   };
 
