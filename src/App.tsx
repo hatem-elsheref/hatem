@@ -34,7 +34,7 @@ const App = () => (
         <TooltipProvider>
           <Toaster />
           <Sonner />
-          <BrowserRouter basename="/hatem-code">
+          <BrowserRouter basename="/hatem">
             <Redirect to="/" />
             <Header />
             <Routes>
